@@ -1,0 +1,35 @@
+.red{
+    background-color: #ff0000;
+    width: 600px;
+    height: 400px;
+    border: 2px solid #ffffff ;
+    text-align: center;
+    color: #f3f5f7;
+    position: absolute;
+    
+}
+.blue{
+    width: 600px;
+    height: 200px;
+    background-color: #0000ff;
+    position: relative;
+    top: 10px;
+
+
+}
+.white{
+    width: 100px;
+    height: 100px;
+color: #000000;
+text-align: center;
+background-color: #ffffff;
+position: relative;
+left: 250px;
+top: 50px;
+border-radius: 50%;
+}
+.red h1{
+    position: relative;
+    top: 0;
+    left: 100%;
+}
