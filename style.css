@@ -14,12 +14,14 @@ p {
 }
 button{
   transition: 300ms;
+  cursor: pointer;
 }
 button:hover{
     
     color: whitesmoke;
     opacity: 30%;
       background-color: rgb(0, 0,0)
+      
 }
     .sizing {
         width: 1200px;
@@ -30,7 +32,7 @@ button:hover{
         margin: 8px;
     }
   .parent {
-    width: 400px;
+    width: 400px;            
     height: 90px;
     background-color: yellow;
     position: relative;

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --dark-color: #2c3e50;
+            --light-color: #ecf0f1;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f8f9fa;
+        }
+     header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+       nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 30px;
+       }
+      ul {
+        display: flex;
+        list-style: none;
+        margin-right: 10px;
+        gap: 10px;
+       
+        
+       }
+       .logo {
+        font-size: 1.2rem;
+        font-weight: 600;
+       }
+       a {
+        color: white;
+         text-decoration: none;
+          transition: all 0.3s ease;
+       }
+       a:hover {
+        text-decoration: underline;
+        transform: translateY(-3px);
+       }
+       
+       .hero {
+        color: white;
+        text-align: center;
+         padding-top: 200px;
+         background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+         padding-bottom: 70px;
+       }
+       .hero h1 {
+        font-size: 2.2rem;
+        animation: fadeIn 1s ease-in;
+        padding: 20px 40px;
+       }
+       p {
+          font-size: 1.1em;
+         margin-bottom: 40px;
+       }
+       .btn {
+        background-color: white;
+        color: #3498db;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        
+        }
+        .btn:hover {
+            
+            box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+           
+        }
+        
+       .container h2 {
+        padding: 40px 40px;
+        font-size: 1.8rem;
+        text-align: center;
+       }
+       .container {
+        padding: 50px 100px;
+       }
+       
+       .about h3 {
+        font-size: 1.5rem;
+        color: #3498db;
+       }
+       .about-text {
+        text-align: left;
+        padding: 0px 100px;
+       }
+       .skills {
+        display: block;
+        padding-top: 20px;
+       }
+       li {
+      padding: 10px 0px;
+       }
+       .about li::before {
+        content: '✔️';
+       }
+       .image {
+        height: 100px;
+        width: 300px;
+       }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home" class="logo">Photo Flar</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+            </ul>
+        </nav>
+        
+    </header>
+     <section class="hero" id="home">
+        <h1>👋 Welcome to Photo Flar</h1>
+        <p>I'm a Full-Stack Web Developer from Ethiopia</p>
+        <p>Passionate about creating beautiful and functional web experiences</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hi! I'm a Photo designer</h3>
+                    <p>I'm a passionate computer science student from Ethiopia with expertise in modern web development. I love turning ideas into interactive and beautiful web applications.</p>
+                    <p>My journey started with HTML & CSS, and I've expanded to JavaScript, React, Node.js, and more. I'm constantly learning and improving my skills to build better solutions.</p>
+                    
+                    <h3 style="margin-top: 1.5rem;">My Skills</h3>
+                    <ul class="skills">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React & Frontend</li>
+                        <li>Node.js & Backend</li>
+                        <li>Responsive Design</li>
+                        <li>Git & GitHub</li>
+                        <li>MongoDB & Databases</li>
+                        <li>Web Performance</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="pp.pn" alt="Profile Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

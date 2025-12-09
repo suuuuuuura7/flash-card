@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 </title>
+    <style>
+        body { 
+            display: flex;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100hv;
+            background-color: aliceblue;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px; 
+            height: 100vh;
+        }
+        .main {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            
+        }
+    
+        ul {
+            text-align: left;
+            padding-bottom: 20px;
+            list-style: none;
+        }
+
+        .basic {
+            box-shadow: 0px 6px 16px rgb(116, 114, 114);
+            width: 400px;
+            height: 400px;
+            margin-right: 10px;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .pro {
+         box-shadow: 0px 6px 16px rgb(116, 114, 114);
+            width: 400px;
+            height: 400px;
+            margin-left: 10px;
+            border-radius: 20px;
+            padding: 20px;
+        }   
+    .enter {
+         box-shadow: 0px 6px 16px rgb(116, 114, 114);
+            width: 400px;
+            height: 400px;
+            margin-left: 20px;
+            border-radius: 20px;
+            padding: 20px;
+    }
+    h3 {
+        font-size: 25px;
+        
+      padding-top: 20px;
+    }
+    h1 {
+        padding-bottom: 20px;
+        color: rgb(87, 87, 247);
+    }
+    li::before {
+        content: "✔️";
+    }
+    button {
+        background-color: rgb(87, 87, 247);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border-color: rgb(87, 87, 247);
+    }
+    button:hover {
+        background-color: white;
+        color: rgb(87, 87, 247);
+    }
+    @media (max-width: 900px){
+        .main {
+            width: 500px;
+            display: inline;
+        }
+        
+    }
+       
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+            <div class="basic">
+                <h3>Basic</h3>
+                <h1>$ 19/month</h1>
+                <ul>
+                    <li>1 Website</li>
+                    <li>10GB Storage</li>
+                    <li>Email support</li>
+                    <li>Basic Analytics</li>
+                </ul>
+                <button>GET STARTED</button>
+            </div>
+            <div class="pro">
+                <h3>Pro</h3>
+                <h1>$ 49/month</h1>
+                <ul>
+                    <li>10 website</li>
+                    <li>100GB storage</li>
+                    <li>Email support</li>
+                    <li>Advanced Analytics</li>
+                </ul>
+                <button>GET STARTED</button>
+            </div>
+        <div class="enter">
+            <h3>Enterprise</h3>
+            <h1>$ 99/month</h1>
+                <ul>
+                    <li>Unlimited Website</li>
+                    <li>1TB storage</li>
+                    <li>24/7 Phone Support</li>
+                    <li>Custom Analytics</li>
+                </ul>
+                <button>GET STARTED</button>
+        </div>
+    </div>
+</body>
+</html>

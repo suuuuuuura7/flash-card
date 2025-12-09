@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            
+        }
+       
+        
+        .card {
+            
+            
+            height: 400px;
+            width: 400px;
+            box-shadow:0px 6px 16px rgb(116, 114, 114) ;
+            border-radius: 20px;
+            padding: 20px;
+            transition: transform 100ms ease-in-out 0s;
+        }
+        .card:hover {
+            box-shadow: 4px 8px 32px rgb(51, 50, 50);
+            transform: translatey(20px);
+
+        }
+        h1 {
+            text-align: center;
+            color: blue;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+        h2 {
+            text-align: center;
+            padding-top: 10px;
+            
+        }
+        ul {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 40px;
+        } 
+        li::before {
+            content: "✔️";
+        }
+        button {
+            
+            margin-left: 120px;
+             background-color: rgb(87, 87, 247);
+             color: white;
+             padding: 10px 20px;
+             border-radius: 20px;
+             border-color: rgb(87, 87, 247);
+        }
+        button:hover {
+            color:  rgb(87, 87, 247) ;
+            background-color: white;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    
+        <div class="card">
+        <h2>Basic</h2>
+        <h1>$19 month</h1>
+        <ul>
+            <li>1 website</li>
+            <li>10GB Storage</li>
+            <li>Email support</li>
+            <li>Basic Analaytics</li>
+        </ul>
+        <button>GET STARTED</button>
+    </div>
+    <div class="card">
+        <h2>Pro</h2>
+        <h1>$49 month</h1>
+        <ul>
+            <li>10 website</li>
+            <li>100GB Storage</li>
+            <li>Email support</li>
+            <li>Advanced Analaytics</li>
+        </ul>
+        <button>GET STARTED</button>
+    </div>
+    <div class="card">
+        <h2>Enterprise</h2>
+        <h1>$99 month</h1>
+        <ul>
+            <li>Unlimited website</li>
+            <li>1TB Storage</li>
+            <li>Email support</li>
+            <li>Custom Analaytics</li>
+        </ul>
+        <button>GET STARTED</button>
+    </div>
+    
+    
+</body>
+</html>

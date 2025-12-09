@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card 2</title>
+  
+  <style>
+  /* style.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 280px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin: 0.5rem 0;
+}
+
+p {
+  color: #555;
+}
+
+.socials {
+  margin: 1rem 0;
+}
+
+.socials a {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: blue;
+}
+
+.btn {
+  background: royalblue;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.btn:hover {
+  background: navy;
+}
+
+.toggle {
+  border: 2px solid royalblue;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+body.dark {
+  background: #222;
+  color: white;
+}
+
+body.dark .card {
+  background: #333;
+}
+
+body.dark .toggle {
+  border-color: white;
+  color: white;
+}
+</style>
+
+  
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/120" alt="Profile" class="avatar">
+    <h2>Sura Muller</h2>
+    <p>Front-end Developer & Designer</p>
+
+    <div class="socials">
+      <a href="#">🌐</a>
+      <a href="#">🐦</a>
+      <a href="#">💼</a>
+    </div>
+
+    <button class="btn">Contact Me</button>
+    <button class="toggle">Switch to Dark Mode</button>
+  </div>
+
+  <script>
+    const toggle = document.querySelector(".toggle");
+    const body = document.body;
+
+    toggle.addEventListener("click", () => {
+      body.classList.toggle("dark");
+    });
+  </script>
+</body>
+</html>

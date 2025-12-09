@@ -1,0 +1,27 @@
+body{
+    width: 100%;
+    background-color: rgb(5, 23, 45);
+    text-wrap: 100%;
+    text-emphasis-color: white;
+    color: aliceblue;
+    height: 100%;
+    place-items: center;
+    padding: 24px;
+}
+.main{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.sura{
+    height: 50%;
+    width: 30%;
+    background-color: rgb(18, 18, 79);
+    background: radial-gradient(1200px 800px at 20% 10%, #111827, #0b1225)
+    
+}
+.sura:hover{transform: translateY(-3px); box-shadow: 0 16px 40px rgba(0,0,0,0.45)}
