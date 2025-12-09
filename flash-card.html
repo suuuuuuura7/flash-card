@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash-Card</title>
+    <style>
+        body {
+            margin: 0;
+            ;
+        }
+        .container {
+            display: flex;
+            background: linear-gradient(120deg,#667eea , #764ba2);
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 15px;
+          
+        .container:hover {
+            box-shadow: 10px 15px 15px 25px rgba(0, 0, 0, 0.2-0.3);
+           
+        }
+        .card {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 70px 50px;
+            border-radius: 10px;
+            box-shadow: 5px 10px 15px 20px rgba(0, 0, 0, 0.2-0.3);
+            transition: transform 0.3s ease, box-sahdow;
+            position: relative;;
+            
+        }
+        .card:hover{
+             transform: translateY(-10px);
+
+        }
+       .note1 {
+                position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+       }
+        
+       .note2 {
+                position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #764ba2;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+       }
+        
+       .note3 {
+                position: absolute;
+            top: 15px;
+            right: 15px;
+            background:#f093fb;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+       }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h3 class="note1">1</h3>
+            <h2 class="title">HTML</h2>
+            <p class="para">
+                HyperText Markup <br>Language - The structure <br>of web pages
+            </p>
+        </div>
+        <div class="card">
+            <h3 class="note2">2</h3>
+            <h2 class="title">CSS</h2>
+            <p class="para">
+               Cascading Style Sheets - <br>Makes websites lookbr
+               <br> beautiful
+            </p>
+        </div>
+        <div class="card">
+            <h3 class="note3">3</h3>
+            <h2 class="title">JavaScript</h2>
+            <p class="para">
+                Programming language <br>that makes websites <br> interactive
+            </p>
+        </div>
+    </div>
+</body>
+</html>
