@@ -107,3 +107,15 @@ function change(){
 function togglesidebar(){
     document.querySelector('body').classList.toggle("open")
 }
+function list() {
+    var a = "3";
+    var b= "10";
+
+
+    a = "10";
+    b = "3";
+
+
+    console.log("b is " + b);
+    console.log("a is " + a);
+}

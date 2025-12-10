@@ -9,6 +9,7 @@ body{
     padding: 24px;
 }
 .main{
+    height: 100vh;
     display: flex;
     place-items: center;
     justify-content: center;
