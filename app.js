@@ -107,15 +107,11 @@ function change(){
 function togglesidebar(){
     document.querySelector('body').classList.toggle("open")
 }
-function list() {
-    var a = "3";
-    var b= "10";
+//var tweet = prompt("enter the comment bellow pls");
+//alert("you entered " + tweet.length + "characters, " + (150-tweet.length) + " remainning");
+var tweet = prompt("enter the comment bellow pls");
+alert("you entered " + tweet.slice(0,15));
 
 
-    a = "10";
-    b = "3";
 
 
-    console.log("b is " + b);
-    console.log("a is " + a);
-}
