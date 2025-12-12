@@ -3,51 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechHub</title>
-    <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-      body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        sans-serif;
-      background-color: #f5f7fb;
-      color: #1f2933;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100vh;
-      }
-      .sticky {
-        display: flex;
-       position: fixed;
-       top: 0px;
-       left: 0px;
-      }
-      .fixed {
-        padding: 30px 50px;
-        
-      }
-      .fixed h1 {
-        color: #2563eb;
-        gap: 10px;
-      }
-      li {
-        color: #1f2933;
-      }
-    </style>
+    <title>Sample Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="sticky"><div class="fixed">
-        <h1>TechHUb</h1>
-        <ul class="link">
-         <li><a href="Products"></a></li>
-         <li><a href="Features"></a></li>
-         <li><a href="Contact"></a></li>
-        </ul>
-    </div>
-    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">MyWebsite</h2>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to My Website</h1>
+            <p>This is a clean and modern layout you can recreate.</p>
+            <button class="btn">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="cards">
+        <div class="card">
+            <h3>Card One</h3>
+            <p>Short description about this feature.</p>
+        </div>
+
+        <div class="card">
+            <h3>Card Two</h3>
+            <p>Short description about this feature.</p>
+        </div>
+
+        <div class="card">
+            <h3>Card Three</h3>
+            <p>Short description about this feature.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MyWebsite. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
