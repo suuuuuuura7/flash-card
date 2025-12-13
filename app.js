@@ -109,8 +109,20 @@ function togglesidebar(){
 }
 //var tweet = prompt("enter the comment bellow pls");
 //alert("you entered " + tweet.length + "characters, " + (150-tweet.length) + " remainning");
-var tweet = prompt("enter the comment bellow pls");
-alert("you entered " + tweet.slice(0,15));
+//var tweet = prompt("enter the comment bellow pls");
+//alert("you entered " + tweet.slice(0,15));
+ // var moon = prompt("What is your name ");
+  //var firstupper = moon.slice(0,1);
+  //var othersmall = moon.slice(1,moon.length); 
+  
+  //alert("Hello " + firstupper.toUpperCase() + othersmall.toLowerCase());
+  var number = prompt("enter the number of milks ");
+  function getMilk (bottles) {
+    var cost = bottles * 1.5;
+    alert("the cost of " + bottles + " is " + cost);
+  }
+getMilk(number);
+
 
 
 
