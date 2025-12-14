@@ -107,23 +107,90 @@ function change(){
 function togglesidebar(){
     document.querySelector('body').classList.toggle("open")
 }
+
+// Angela course bellow
+
 //var tweet = prompt("enter the comment bellow pls");
 //alert("you entered " + tweet.length + "characters, " + (150-tweet.length) + " remainning");
 //var tweet = prompt("enter the comment bellow pls");
 //alert("you entered " + tweet.slice(0,15));
- // var moon = prompt("What is your name ");
+  //var moon = prompt("What is your name ");
   //var firstupper = moon.slice(0,1);
-  //var othersmall = moon.slice(1,moon.length); 
+//var othersmall = moon.slice(1,moon.length); 
   
   //alert("Hello " + firstupper.toUpperCase() + othersmall.toLowerCase());
-  var number = prompt("enter the number of milks ");
+  /*var number = prompt("enter the number of milks ");
   function getMilk (bottles) {
     var cost = bottles * 1.5;
     alert("the cost of " + bottles + " is " + cost);
-  }
-getMilk(number);
+  } 
+getMilk(number); */
+
+/*var currentAge = prompt("enter your age pls");
+
+function life(currentAge) {
+    var age = 90 - currentAge;
+  alert("you left 😮 " + 365 * age + " days " + 52 * age + " weeks " + 12 * age + " months left check it out where am I ");
+
+}
+
+life(currentAge);
 
 
+*/
+/*var weight = prompt("enter you weight in KG ");
+var height = prompt("enter you height in meter");
 
+function BMI(w,h) {
 
+    var h2 = Math.pow(h,2);
+    alert("yiur BMI is " + Math.round(w/h2));
+}
 
+BMI(weight,height);  */
+
+/*var n = Math.random();
+n = n *6;
+console.log(Math.floor(n + 1)); */
+
+/*var firstName = prompt("enter the first name ");
+var secondName = prompt("enter the second name");
+
+var n = Math.random();
+n = n *100;
+var cal = Math.floor(n) + 1;
+alert("the love 💖sura persentage between " + firstName + " and " + secondName + " is " + cal +"% ");
+*/
+
+/*var year = prompt("enter the year to konw Lwap Year");
+function isLeap(year){
+    
+
+   if (year%4==0 && year%100==0 && year%400==0){
+    alert("Leap Year")
+   }else if (year%4==0 && year%100!=0){
+    alert("Leap Year");
+   
+   }else {
+    alert("Not Leap Year");
+   }
+
+}
+
+isLeap(year);  */
+var i=100;
+for (i=100;i<=0;i--){
+    if (i%5==0 && i%3==0){
+        console.log("FizzBuzz")
+    }else if(i%5==0){
+        console.log("Buzz");
+    }
+
+    else if(i%3==0){
+        console.log("Fizz");
+    }
+
+    else {
+        console.log(i);
+    }
+}
